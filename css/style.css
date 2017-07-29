@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Andika');
+
+h1 {font-family: 'Amatic SC', cursive; 
+    font-size:6rem;
+    font:bold;
+    color:#F3B7B7;
+    border:#353226 double 15px;
+    text-align:center;
+    background-color:#44BBA4;
+}
+/*changed font size*/
+
+h2 {font-family: 'Amatic SC', cursive; 
+    font-size:4rem;
+    font:bold;
+    color:#F3B7B7;
+    border:#353226 double 10px;
+    background-color:#44BBA4;
+    text-align:center;
+}
+/*need a class*/
+body {
+    background-color:#B4EAC8;
+}
+/*Why are spaces and capitals lettes such a problem*/
+p {font-family:'Andika', sans-serif;
+    font-size:1.5rem;
+}
+/*probably should use a home button for pics*/
+nav a:link {color:#353226;
+ /*look for more fonts*/ 
+}
+nav {font-size:2rem;
+font-family:'Andika', sans-serif;
+    
+}
+
+#pictures{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+#pictures p {font-family: 'Amatic SC', cursive; 
+    font-size:1.5rem;
+    font:bold;
+    color:#F3B7B7;
+    border:#353226 solid 3px;
+    background-color:#44BBA4;
+    text-align:center;
+}  
+    
+footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
